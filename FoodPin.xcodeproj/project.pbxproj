@@ -21,6 +21,8 @@
 		7E9AD4F11B3ABB6D00EFEC89 /* FoodPinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9AD4F01B3ABB6D00EFEC89 /* FoodPinTests.swift */; };
 		7E9AD4FB1B3ABC8500EFEC89 /* RestaurantTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9AD4FA1B3ABC8500EFEC89 /* RestaurantTableViewController.swift */; };
 		7EA7022A1B3CF7FB00D824D1 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA702291B3CF7FB00D824D1 /* CustomTableViewCell.swift */; };
+		7EBB156D1B59F09C00BAFEFC /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBB156C1B59F09C00BAFEFC /* AboutViewController.swift */; };
+		7EBB156F1B59F0B600BAFEFC /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBB156E1B59F0B600BAFEFC /* WebViewController.swift */; };
 		7EC7C5631B56B71500C2FDF2 /* UserDefaultsKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC7C5621B56B71500C2FDF2 /* UserDefaultsKeys.swift */; };
 		7EEA48EA1B455B7E0068103A /* ReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EEA48E91B455B7E0068103A /* ReviewViewController.swift */; };
 		7EEA48EC1B46373D0068103A /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EEA48EB1B46373D0068103A /* ShareViewController.swift */; };
@@ -57,6 +59,8 @@
 		7E9AD4F01B3ABB6D00EFEC89 /* FoodPinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodPinTests.swift; sourceTree = "<group>"; };
 		7E9AD4FA1B3ABC8500EFEC89 /* RestaurantTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantTableViewController.swift; sourceTree = "<group>"; };
 		7EA702291B3CF7FB00D824D1 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		7EBB156C1B59F09C00BAFEFC /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		7EBB156E1B59F0B600BAFEFC /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		7EC7C5621B56B71500C2FDF2 /* UserDefaultsKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultsKeys.swift; sourceTree = "<group>"; };
 		7EEA48E91B455B7E0068103A /* ReviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewViewController.swift; sourceTree = "<group>"; };
 		7EEA48EB1B46373D0068103A /* ShareViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
@@ -123,6 +127,8 @@
 				7E0AC5931B55060200EFF998 /* PageContentViewController.swift */,
 				7E0AC5951B55097D00EFF998 /* PageViewController.swift */,
 				7EC7C5621B56B71500C2FDF2 /* UserDefaultsKeys.swift */,
+				7EBB156C1B59F09C00BAFEFC /* AboutViewController.swift */,
+				7EBB156E1B59F0B600BAFEFC /* WebViewController.swift */,
 			);
 			path = FoodPin;
 			sourceTree = "<group>";
@@ -260,6 +266,7 @@
 				7E30E3901B4390270093F8FE /* DetailTableViewCell.swift in Sources */,
 				7E88E3E11B539A3C0045D671 /* FoodPin.xcdatamodeld in Sources */,
 				7E30E38E1B437B5A0093F8FE /* Restaurant.swift in Sources */,
+				7EBB156D1B59F09C00BAFEFC /* AboutViewController.swift in Sources */,
 				7EEA48EA1B455B7E0068103A /* ReviewViewController.swift in Sources */,
 				7EA7022A1B3CF7FB00D824D1 /* CustomTableViewCell.swift in Sources */,
 				7EF04E111B4A67E500F682F9 /* MapViewController.swift in Sources */,
@@ -271,6 +278,7 @@
 				7E0AC5961B55097D00EFF998 /* PageViewController.swift in Sources */,
 				7E5D0CAE1B42F03E00F2DEB1 /* DetailViewController.swift in Sources */,
 				7E5724CD1B4F71680035A6A3 /* AddTableViewController.swift in Sources */,
+				7EBB156F1B59F0B600BAFEFC /* WebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

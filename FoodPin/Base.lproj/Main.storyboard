@@ -726,7 +726,7 @@ think?</string>
         <!--About-->
         <scene sceneID="UgQ-bZ-5fh">
             <objects>
-                <viewController title="About" id="xfF-lp-cD7" sceneMemberID="viewController">
+                <viewController title="About" id="xfF-lp-cD7" customClass="AboutViewController" customModule="FoodPin" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="kI2-w7-MiK"/>
                         <viewControllerLayoutGuide type="bottom" id="OC4-8h-t2W"/>
@@ -734,13 +734,106 @@ think?</string>
                     <view key="view" contentMode="scaleToFill" id="8NW-BJ-RyB">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="about" translatesAutoresizingMaskIntoConstraints="NO" id="9mw-gm-hY2">
+                                <rect key="frame" x="60" y="72" width="200" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="K4P-dM-veX"/>
+                                    <constraint firstAttribute="height" constant="200" id="fO4-MX-B27"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jk0-ZN-LZ1">
+                                <rect key="frame" x="60" y="280" width="200" height="41"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="Lro-Ty-ZEq"/>
+                                    <constraint firstAttribute="height" constant="41" id="aBv-Bq-Eq8"/>
+                                </constraints>
+                                <string key="text">Got Questions?
+You're just a tap away</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sbo-zt-H7i">
+                                <rect key="frame" x="94" y="382" width="133" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="133" id="xBr-VV-6NI"/>
+                                </constraints>
+                                <state key="normal" title="Visit our website">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="UhC-VP-4Up" kind="push" id="hRN-iU-OUV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GvA-iU-9EY">
+                                <rect key="frame" x="105" y="344" width="110" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="110" id="l7B-Tl-2cL"/>
+                                </constraints>
+                                <state key="normal" title="Contact Us">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="sendEmail:" destination="xfF-lp-cD7" eventType="touchUpInside" id="cee-P0-rMn"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="9mw-gm-hY2" secondAttribute="centerX" id="0Jv-Xf-f9L"/>
+                            <constraint firstItem="GvA-iU-9EY" firstAttribute="top" secondItem="Jk0-ZN-LZ1" secondAttribute="bottom" constant="23" id="K38-YJ-xKw"/>
+                            <constraint firstItem="9mw-gm-hY2" firstAttribute="top" secondItem="kI2-w7-MiK" secondAttribute="bottom" constant="8" id="PuA-jf-XFV"/>
+                            <constraint firstAttribute="centerX" secondItem="GvA-iU-9EY" secondAttribute="centerX" id="REF-Tb-Zdz"/>
+                            <constraint firstAttribute="centerX" secondItem="Jk0-ZN-LZ1" secondAttribute="centerX" id="RI4-CO-hkb"/>
+                            <constraint firstAttribute="centerX" secondItem="sbo-zt-H7i" secondAttribute="centerX" id="S8r-sV-AXB"/>
+                            <constraint firstItem="Jk0-ZN-LZ1" firstAttribute="top" secondItem="9mw-gm-hY2" secondAttribute="bottom" constant="8" id="WWB-08-qU9"/>
+                            <constraint firstItem="sbo-zt-H7i" firstAttribute="top" secondItem="GvA-iU-9EY" secondAttribute="bottom" constant="8" id="juM-Hp-95l"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="About" id="ur7-ko-LlX"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="u3V-Cu-4NM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-430" y="579"/>
+        </scene>
+        <!--Web View Controller-->
+        <scene sceneID="baP-oj-O71">
+            <objects>
+                <viewController hidesBottomBarWhenPushed="YES" id="UhC-VP-4Up" customClass="WebViewController" customModule="FoodPin" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="VIp-Y0-AlZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="cuY-Y3-ANZ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="vYF-mX-5Tp">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XuN-jh-EdT">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="XuN-jh-EdT" secondAttribute="trailing" id="BQa-u5-Weq"/>
+                            <constraint firstItem="XuN-jh-EdT" firstAttribute="top" secondItem="vYF-mX-5Tp" secondAttribute="top" id="Qrf-NY-PR5"/>
+                            <constraint firstItem="XuN-jh-EdT" firstAttribute="leading" secondItem="vYF-mX-5Tp" secondAttribute="leading" id="VRj-y0-fQy"/>
+                            <constraint firstItem="XuN-jh-EdT" firstAttribute="bottom" secondItem="cuY-Y3-ANZ" secondAttribute="top" id="vWG-ew-KJl"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="0aK-a6-97S"/>
+                    <connections>
+                        <outlet property="webView" destination="XuN-jh-EdT" id="FBn-c0-Kq9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IK2-8J-jJZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-9" y="579"/>
         </scene>
         <!--Page View Controller-->
         <scene sceneID="JyO-w5-Jun">
@@ -916,6 +1009,7 @@ think?</string>
         </scene>
     </scenes>
     <resources>
+        <image name="about" width="1024" height="1024"/>
         <image name="bad" width="64" height="64"/>
         <image name="cafeloisl" width="640" height="640"/>
         <image name="camera" width="256" height="256"/>
