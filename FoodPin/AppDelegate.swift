@@ -32,6 +32,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         UIToolbar.appearance().barTintColor = UIColor(red: 237.0/255.0, green: 240.0/255.0, blue:
             243.0/255.0, alpha: 0.5)
+        
+        UITabBar.appearance().tintColor = UIColor(red: 235.0/255.0, green: 75.0/255.0, blue: 27.0/255.0, alpha: 1.0)
+        // UITabBar.appearance().barTintColor = UIColor.blackColor()
+        // UITabBar.appearance().selectionIndicatorImage = UIImage(
     
         return true
     }
