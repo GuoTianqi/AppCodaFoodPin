@@ -23,6 +23,7 @@
 		7EA7022A1B3CF7FB00D824D1 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA702291B3CF7FB00D824D1 /* CustomTableViewCell.swift */; };
 		7EBB156D1B59F09C00BAFEFC /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBB156C1B59F09C00BAFEFC /* AboutViewController.swift */; };
 		7EBB156F1B59F0B600BAFEFC /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBB156E1B59F0B600BAFEFC /* WebViewController.swift */; };
+		7EBB158A1B5A38A800BAFEFC /* aboutfoodpin.png in Resources */ = {isa = PBXBuildFile; fileRef = 7EBB158C1B5A38A800BAFEFC /* aboutfoodpin.png */; };
 		7EC7C5631B56B71500C2FDF2 /* UserDefaultsKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC7C5621B56B71500C2FDF2 /* UserDefaultsKeys.swift */; };
 		7EEA48EA1B455B7E0068103A /* ReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EEA48E91B455B7E0068103A /* ReviewViewController.swift */; };
 		7EEA48EC1B46373D0068103A /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EEA48EB1B46373D0068103A /* ShareViewController.swift */; };
@@ -61,6 +62,8 @@
 		7EA702291B3CF7FB00D824D1 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		7EBB156C1B59F09C00BAFEFC /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		7EBB156E1B59F0B600BAFEFC /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		7EBB158B1B5A38A800BAFEFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Base; path = Base.lproj/aboutfoodpin.png; sourceTree = "<group>"; };
+		7EBB158D1B5A38B400BAFEFC /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = en.lproj/aboutfoodpin.png; sourceTree = "<group>"; };
 		7EC7C5621B56B71500C2FDF2 /* UserDefaultsKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultsKeys.swift; sourceTree = "<group>"; };
 		7EEA48E91B455B7E0068103A /* ReviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewViewController.swift; sourceTree = "<group>"; };
 		7EEA48EB1B46373D0068103A /* ShareViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
@@ -109,6 +112,7 @@
 		7E9AD4D71B3ABB6D00EFEC89 /* FoodPin */ = {
 			isa = PBXGroup;
 			children = (
+				7EBB158C1B5A38A800BAFEFC /* aboutfoodpin.png */,
 				7E9AD4DA1B3ABB6D00EFEC89 /* AppDelegate.swift */,
 				7E9AD4DE1B3ABB6D00EFEC89 /* Main.storyboard */,
 				7E9AD4E11B3ABB6D00EFEC89 /* Images.xcassets */,
@@ -244,6 +248,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E9AD4E01B3ABB6D00EFEC89 /* Main.storyboard in Resources */,
+				7EBB158A1B5A38A800BAFEFC /* aboutfoodpin.png in Resources */,
 				7E9AD4E51B3ABB6D00EFEC89 /* LaunchScreen.xib in Resources */,
 				7E9AD4E21B3ABB6D00EFEC89 /* Images.xcassets in Resources */,
 			);
@@ -315,6 +320,15 @@
 				7E9AD4E41B3ABB6D00EFEC89 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		7EBB158C1B5A38A800BAFEFC /* aboutfoodpin.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EBB158B1B5A38A800BAFEFC /* Base */,
+				7EBB158D1B5A38B400BAFEFC /* en */,
+			);
+			name = aboutfoodpin.png;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
